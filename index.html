@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Líneas para Foro (Vista PC) - por Michael Antonio Rodriguez Condega</title>
+    <!-- Vinculación del archivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- AVISO EN GRANDE PARA EL TELÉFONO -->
+    <div class="mobile-warning">
+        <h2>⚠️ ¡ATENCIÓN USUARIO DE TELÉFONO MÓVIL! ⚠️</h2>
+        <p>Si estás abriendo esta página desde tu celular, el medidor fallará y mostrará más líneas de lo debido (por ejemplo, 15 líneas en lugar de 7). Para medir correctamente, ve a las opciones de tu navegador y activa la casilla <span class="highlight">"Vista de escritorio"</span> o <span class="highlight">"Sitio para computadora"</span>.</p>
+    </div>
+
+    <h1>Medidor de Líneas (Vista de Computadora)</h1>
+    <div class="author">Desarrollado por: Michael Antonio Rodriguez Condega</div>
+    <p class="desc">Pega tu texto abajo para ver cuántas líneas ocupará exactamente en la pantalla del foro.</p>
+    
+    <!-- Textarea con corrector ortográfico nativo activado -->
+    <textarea id="text-input" placeholder="Pega tu texto aquí..." spellcheck="true"></textarea>
+    
+    <!-- NUEVO: Botón interactivo para copiar el texto validado -->
+    <button id="copy-btn" class="copy-button">📋 Copiar Texto</button>
+    
+    <div class="preview-box">
+        <div class="preview-header">Vista en Pantalla de PC Estándar</div>
+        <p id="simulated-paragraph"></p>
+    </div>
+    
+    <div class="counter-panel">
+        <div class="stat-card">
+            <div class="label">Líneas Aproximadas</div>
+            <div id="line-count" class="value">0</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">Estado (Regla: 5 a 8 líneas)</div>
+            <div id="status-text" class="value">Vacío</div>
+        </div>
+    </div>
+</div>
+
+<!-- Vinculación del archivo JavaScript externo -->
+<script src="script.js"></script>
+
+</body>
+</html>
