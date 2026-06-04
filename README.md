@@ -1,5 +1,7 @@
 # Medidor de Líneas para Foro (Vista PC) 📊
 
+🌐 **Accede a la herramienta en vivo aquí:** [https://michaelarc-ni.github.io/medidor-lineas-foro/](https://michaelarc-ni.github.io/medidor-lineas-foro/)
+
 Esta es una herramienta web interactiva diseñada para ayudar a los estudiantes a verificar la extensión exacta de sus respuestas antes de publicarlas en el foro de la plataforma, asegurando el cumplimiento estricto de la regla: **mínimo 5 y máximo 8 líneas**.
 
 ## 🚀 ¿Para qué sirve?
@@ -22,4 +24,3 @@ Para medir correctamente desde el celular, sigue estos pasos:
 
 ## 👤 Desarrollador
 * **Michael Antonio Rodriguez Condega**
-* 
